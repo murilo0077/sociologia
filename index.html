@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diversidade & Sociedade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">Diversidade</div>
+      <div class="nav-links">
+        <a href="#home">Início</a>
+        <a href="#textos">Textos</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#video">Vídeo</a>
+        <a href="#musica">Música</a>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema">
+          <span class="theme-icon">🌙</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1>"Socilogia, etnia e direitos humanos"</h1>
+      <p>Um trabalho escolar das matérias de Sociologia e Front-End.</p>
+      <a href="#textos" class="cta-button">Explorar Conteúdo</a>
+    </div>
+    <div class="scroll-indicator"></div>
+  </div>
+
+  <main>
+    <section id="textos">
+      <div class="section-header">
+        <h2>Pesquisas</h2>
+        <p>Estudos sobre diversidade, identidade e sociedade</p>
+      </div>
+
+      <div class="content-grid">
+        <div class="content-card">
+          <h3>Diversidade de Gênero</h3>
+          <p>A análise sociológica da diversidade de gênero exige, primordialmente, a distinção clara entre <strong>sexo biológico</strong> e <strong>gênero</strong>. Enquanto o primeiro se refere às características biológicas, o gênero é uma construção social e cultural.</p>
+          <p>A diversidade reside no fato de que a identidade de gênero – o senso interno e individual de ser homem, mulher, ambos, ou nenhum – nem sempre corresponde ao sexo atribuído ao nascer.</p>
+          <p>No cotidiano, o não-acatamento a essa norma binária gera uma série de violências estruturais, como a transfobia, que se manifesta na exclusão do mercado de trabalho, na violência física e na negação de direitos básicos.</p>
+        </div>
+
+        <div class="content-card">
+          <h3>Etnia</h3>
+          <p>O conceito de etnia é central para a Sociologia, pois fornece uma ferramenta de análise que vai além das classificações simplistas baseadas em aparência. Etnia se refere a um grupo social que compartilha laços culturais, históricos e ancestrais.</p>
+          <p>É crucial estabelecer a distinção sociológica entre <strong>etnia e raça</strong>. Enquanto a noção de raça foi historicamente utilizada como um construto social para hierarquizar e justificar a dominação, a etnia é um marcador de herança e cultura.</p>
+          <p>O preconceito étnico, no cotidiano brasileiro, se manifesta de forma sutil ou explícita, limitando o acesso a oportunidades educacionais, profissionais e políticas para grupos minorizados.</p>
+        </div>
+
+        <div class="content-card">
+          <h3>Povos Indígenas</h3>
+          <p>A pauta dos povos indígenas é inseparável da história e da formação social do Brasil. A Sociologia deve reconhecer a imensa diversidade dessas populações, que não são homogêneas, mas compostas por centenas de etnias.</p>
+          <p>O cerne da luta indígena na contemporaneidade é a garantia de seus direitos originários, sobretudo a demarcação e proteção de suas terras. A terra para esses povos transcende o valor econômico.</p>
+          <p>No cotidiano, os povos indígenas enfrentam a constante pressão de invasores de terras, o desrespeito à sua cultura e um forte preconceito social que insiste em relegá-los ao passado.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria">
+      <div class="section-header">
+        <h2>Galeria</h2>
+        <p>Imagens que contam histórias sobre diversidade, cultura e identidade</p>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="a.png" alt="Capa do Trabalho">
+          </div>
+          <div class="gallery-info">
+            <h3>Capa do Trabalho</h3>
+            <p>Representação visual do projeto sobre diversidade, identidade e sociedade</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="b.png" alt="Diversidade de Gênero">
+          </div>
+          <div class="gallery-info">
+            <h3>Diversidade de Gênero</h3>
+            <p>Explorando as múltiplas expressões de identidade além do binarismo tradicional</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="a.webp" alt="Povos Nativos">
+          </div>
+          <div class="gallery-info">
+            <h3>Povos Originários</h3>
+            <p>A resistência e sabedoria ancestral dos povos indígenas brasileiros</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="b.webp" alt="Etnias">
+          </div>
+          <div class="gallery-info">
+            <h3>Diversidade Étnica</h3>
+            <p>A pluralidade cultural que forma a identidade brasileira</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video">
+      <div class="section-header">
+        <h2>Vídeo Documentário</h2>
+        <p>Uma jornada audiovisual sobre diversidade, identidade e transformação social</p>
+      </div>
+      
+      <div class="video-featured">
+        <div class="video-player">
+          <iframe 
+            src="https://www.youtube.com/embed/yUvl6gy2JlI" 
+            title="Documentário - Diversidade e Sociedade"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="video-description">
+          <h3>Diversidade, Gênero & Sociedade</h3>
+          <p>
+            Este documentário apresenta uma análise profunda e sensível sobre os temas que 
+            constroem a identidade brasileira: a diversidade de gênero, a riqueza étnica e 
+            a luta histórica dos povos indígenas.
+          </p>
+          <p>
+            Através de reflexões sociológicas e narrativas visuais, exploramos como essas 
+            questões se entrelaçam no cotidiano, desafiando estruturas e promovendo o 
+            reconhecimento da pluralidade que nos define como nação.
+          </p>
+          <p>
+            Uma produção que convida ao diálogo, à empatia e à transformação social.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="musica">
+      <div class="section-header">
+        <h2>Trilha Sonora da Diversidade</h2>
+        <p>Músicas que ecoam identidade, resistência e cultura</p>
+      </div>
+
+      <div class="music-container">
+        <div class="music-video">
+          <iframe 
+            src="https://www.youtube.com/embed/MOSZnMY98q8" 
+            title="Cara de Índio - Djavan"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="music-info">
+          <h3>Cara de Índio</h3>
+          <p class="artist">Djavan</p>
+          <p class="description">
+            Uma obra-prima que celebra a ancestralidade e a identidade indígena brasileira. 
+            Djavan tece versos poéticos sobre a beleza e a força dos povos originários, 
+            questionando estereótipos e exaltando a herança cultural que pulsa em nossas veias.
+          </p>
+          <a href="https://www.letras.mus.br/djavan/45514/" target="_blank" class="lyrics-link">
+            📖 Ver Letra Completa
+          </a>
+        </div>
+      </div>
+
+      <div class="music-container reverse">
+        <div class="music-video">
+          <iframe 
+            src="https://www.youtube.com/embed/u4lcUooNNLY" 
+            title="Negro Drama - Racionais MC's"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="music-info">
+          <h3>Negro Drama</h3>
+          <p class="artist">Racionais MC's</p>
+          <p class="description">
+            Um manifesto visceral sobre a realidade da população negra no Brasil. 
+            Mano Brown e Edi Rock narram com precisão cirúrgica o racismo estrutural, 
+            a luta pela sobrevivência e a busca por dignidade em uma sociedade desigual. 
+            Uma das músicas mais importantes do rap brasileiro.
+          </p>
+          <a href="https://www.letras.mus.br/racionais-mcs/63398/" target="_blank" class="lyrics-link">
+            📖 Ver Letra Completa
+          </a>
+        </div>
+      </div>
+
+      <div class="music-container">
+        <div class="music-video">
+          <iframe 
+            src="https://www.youtube.com/embed/MfcMgRqT3nA" 
+            title="Minha Força - Kaê Guajajara"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="music-info">
+          <h3>Minha Força</h3>
+          <p class="artist">Kaê Guajajara</p>
+          <p class="description">
+            A voz potente de uma mulher indígena contemporânea que mistura rap com elementos 
+            tradicionais de sua cultura. Kaê Guajajara representa a resistência dos povos 
+            originários, trazendo para o mundo urbano a sabedoria ancestral e a luta pelo 
+            território e pelos direitos indígenas.
+          </p>
+          <a href="https://www.letras.mus.br/kae-guajajara/minha-forca/" target="_blank" class="lyrics-link">
+            📖 Ver Letra Completa
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="creditos">
+      <div class="credits">
+        <h2>Equipe</h2>
+        <div class="credits-grid">
+          <div class="credit-item">
+            <p>Murilo Otavio <span>N23</span></p>
+          </div>
+          <div class="credit-item">
+            <p>Eduardo Henrique <span>N7</span></p>
+          </div>
+          <div class="credit-item">
+            <p>Guilherme Luiz <span>N13</span></p>
+          </div>
+          <div class="credit-item">
+            <p>João Vitor <span>N15</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
